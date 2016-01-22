@@ -1,0 +1,53 @@
+#!/usr/bin/env python
+
+#Akila Ganlath, University of California Riverside, Pasqualetti-Xu Cyberphysical Security Group
+#Creates a node which publishes a random Twist message to the standard ROS /cmd_vel topic
+import rospy
+import rosbag
+import math
+import random
+from  geometry_msgs.msg	import Twist
+from std_msgs.msg import String
+
+def rand_attacker():
+	#publish to cmd_vel topic
+	rand_vel = rospy.Publisher('/cmd_vel', Twist, queue_size=10)
+	#publish strings to a new topic called chatter
+	chat = rospy.Publisher('chatter', String, queue_size=10)
+	rospy.init_node('rand_attacker', anonymous=False)
+	
+	#define the rospy Rate object
+	rand_hertz=10				#default publish rate in Hz
+	rate = rospy.Rate(rand_hertz)	
+	while not rospy.is_shutdown():
+		
+
+		#define the msg as a Twist msg type
+		attack_msg=Twist()
+		
+		#check param server for changes
+		rand_hertz=rospy.get_param('~rand_hertz')
+		rate = rospy.Rate(rand_hertz)		
+
+		#from ardrone_drive documentation, the cmd_vel msg range is [-1,1]
+		attack_msg.linear.x = random.randint(-1,1)
+		attack_msg.linear.y = random.randint(-1,1)	
+		attack_msg.angular.z = random.randint(-1,1)
+		
+		#publish the attack to cmd_vel topic
+		rand_vel.publish(attack_msg)
+		
+		#log and print the attack values
+		attack_str="Publishing Attack Messages %s" % rospy.get_time()
+		print "Linear X: %d" % attack_msg.linear.x
+		print "Linear Y: %d" % attack_msg.linear.y
+		print "Angular Z: %d" % attack_msg.angular.z
+		rospy.loginfo(attack_str)
+		chat.publish(attack_str)
+		rate.sleep()
+		
+if __name__ == '__main__':
+    try:
+	rand_attacker()
+    except rospy.ROSInterruptException:
+	pass
