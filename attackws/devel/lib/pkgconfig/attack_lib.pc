@@ -1,0 +1,8 @@
+prefix=/home/akila/ROSWS/attackws/devel
+
+Name: attack_lib
+Description: Description of attack_lib
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/akila/ROSWS/attackws/devel/lib 
+Requires: 

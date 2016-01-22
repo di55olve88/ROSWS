@@ -1,0 +1,2 @@
+tum_simulator/cvg_sim_gazebo:tum_simulator/cvg_sim_gazebo_plugins:tum_simulator/cvg_sim_msgs:tum_simulator/message_to_tf:tum_simulator/tum_simulator
+-DCATKIN_DEVEL_PREFIX=/home/akila/ROSWS/simws/devel -DCMAKE_INSTALL_PREFIX=/home/akila/ROSWS/simws/install -G Unix Makefiles

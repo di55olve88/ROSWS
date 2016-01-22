@@ -1,0 +1,6 @@
+<launch>
+	<!--Random Command Attack Node-->
+	<node pkg="attack_lib" type="rand_attack" name="rand_attacker" respawn="false" output="screen">
+		<param name="rand_hertz" value="5" />
+	</node>
+</launch>

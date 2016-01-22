@@ -1,0 +1,2 @@
+attack_lib
+-DCATKIN_DEVEL_PREFIX=/home/akila/ROSWS/attackws/devel -DCMAKE_INSTALL_PREFIX=/home/akila/ROSWS/attackws/install -G Unix Makefiles
