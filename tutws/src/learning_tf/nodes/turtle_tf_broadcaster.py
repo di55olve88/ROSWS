@@ -17,12 +17,12 @@ def handle_turtle_pose(msg, turtlename):
 		"world")
 
 #subscribe to the turtles pose, and call the above function
-if __name__== '_main_':
+if __name__== '__main__':
 	rospy.init_node('turtle_tf_broadcaster')
 	turtlename = rospy.get_param('~turtle')
 	rospy.Subscriber('/%s/pose' % turtlename,
 			  turtlesim.msg.Pose,
 			  handle_turtle_pose,
-			  turtlesname)
+			  turtlename)
 
 rospy.spin()
