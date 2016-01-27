@@ -1,0 +1,2 @@
+tum_ardrone
+-DCATKIN_DEVEL_PREFIX=/home/parallels/ROSWS/tumws/devel -DCMAKE_INSTALL_PREFIX=/home/parallels/ROSWS/tumws/install -G Unix Makefiles

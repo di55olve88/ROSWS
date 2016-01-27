@@ -1,0 +1,8 @@
+prefix=/home/parallels/ROSWS/tumws/install
+
+Name: tum_ardrone
+Description: Description of tum_ardrone
+Version: 0.0.0
+Cflags: -I/home/parallels/ROSWS/tumws/install/include
+Libs: -L/home/parallels/ROSWS/tumws/install/lib 
+Requires: message_runtime std_msgs ardrone_autonomy
