@@ -52,8 +52,8 @@
   <build_depend>std_srvs</build_depend>
   <build_depend>message_generation</build_depend>
   <build_depend>roscpp</build_depend>
-  <build_depend>glut</build_depend>
   <build_depend>rospy</build_depend>
+  <build_depend>glut</build_depend>
   <run_depend>libqt4-dev</run_depend>
   <run_depend>atlas</run_depend>
   <run_depend>liblapack-dev</run_depend>

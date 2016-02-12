@@ -260,7 +260,7 @@ if __name__ == '__main__':
             sys.exit(1)
 
         # environment at generation time
-        CMAKE_PREFIX_PATH = '/home/akila/ROSWS/tutws/devel;/home/akila/ROSWS/argpsws/devel;/home/akila/ROSWS/arws/devel;/home/akila/ROSWS/attackws/devel;/home/akila/ROSWS/tumws/devel;/home/akila/ROSWS/simws/devel;/opt/ros/indigo'.split(';')
+        CMAKE_PREFIX_PATH = '/opt/ros/indigo'.split(';')
         # prepend current workspace if not already part of CPP
         base_path = os.path.dirname(__file__)
         if base_path not in CMAKE_PREFIX_PATH:

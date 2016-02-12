@@ -1,2 +1,2 @@
 learning_tf
--DCATKIN_DEVEL_PREFIX=/home/akila/ROSWS/tutws/devel -DCMAKE_INSTALL_PREFIX=/home/akila/ROSWS/tutws/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/dualboot/AKILAWS/ROSWS/tutws/devel -DCMAKE_INSTALL_PREFIX=/home/dualboot/AKILAWS/ROSWS/tutws/install -G Unix Makefiles

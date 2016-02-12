@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/parallels/ROSWS/tumws/src
+CMAKE_SOURCE_DIR = /home/dualboot/AKILAWS/ROSWS/tumws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/parallels/ROSWS/tumws/build
+CMAKE_BINARY_DIR = /home/dualboot/AKILAWS/ROSWS/tumws/build
 
 # Utility rule file for download_extra_data.
 
@@ -60,6 +60,6 @@ CMakeFiles/download_extra_data.dir/clean:
 .PHONY : CMakeFiles/download_extra_data.dir/clean
 
 CMakeFiles/download_extra_data.dir/depend:
-	cd /home/parallels/ROSWS/tumws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parallels/ROSWS/tumws/src /home/parallels/ROSWS/tumws/src /home/parallels/ROSWS/tumws/build /home/parallels/ROSWS/tumws/build /home/parallels/ROSWS/tumws/build/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dualboot/AKILAWS/ROSWS/tumws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dualboot/AKILAWS/ROSWS/tumws/src /home/dualboot/AKILAWS/ROSWS/tumws/src /home/dualboot/AKILAWS/ROSWS/tumws/build /home/dualboot/AKILAWS/ROSWS/tumws/build /home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/download_extra_data.dir/depend
 

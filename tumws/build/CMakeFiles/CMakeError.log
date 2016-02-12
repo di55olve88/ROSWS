@@ -1,23 +1,23 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/parallels/ROSWS/tumws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3989608426/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3989608426.dir/build.make CMakeFiles/cmTryCompileExec3989608426.dir/build
-make[1]: Entering directory `/home/parallels/ROSWS/tumws/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/parallels/ROSWS/tumws/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3989608426.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3989608426.dir/CheckSymbolExists.c.o   -c /home/parallels/ROSWS/tumws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTryCompileExec3989608426
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3989608426.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec3989608426.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3989608426 -rdynamic 
-CMakeFiles/cmTryCompileExec3989608426.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:/usr/bin/make "cmTryCompileExec2682903192/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2682903192.dir/build.make CMakeFiles/cmTryCompileExec2682903192.dir/build
+make[1]: Entering directory `/home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2682903192.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2682903192.dir/CheckSymbolExists.c.o   -c /home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2682903192
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2682903192.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2682903192.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2682903192 -rdynamic 
+CMakeFiles/cmTryCompileExec2682903192.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec3989608426] Error 1
-make[1]: Leaving directory `/home/parallels/ROSWS/tumws/build/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec3989608426/fast] Error 2
+make[1]: *** [cmTryCompileExec2682903192] Error 1
+make[1]: Leaving directory `/home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2682903192/fast] Error 2
 
-File /home/parallels/ROSWS/tumws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -33,42 +33,42 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/parallels/ROSWS/tumws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1187843886/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1187843886.dir/build.make CMakeFiles/cmTryCompileExec1187843886.dir/build
-make[1]: Entering directory `/home/parallels/ROSWS/tumws/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/parallels/ROSWS/tumws/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1187843886.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1187843886.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec1187843886
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1187843886.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1187843886.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1187843886 -rdynamic -lpthreads 
+Run Build Command:/usr/bin/make "cmTryCompileExec3471047501/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3471047501.dir/build.make CMakeFiles/cmTryCompileExec3471047501.dir/build
+make[1]: Entering directory `/home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3471047501.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3471047501.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3471047501
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3471047501.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3471047501.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3471047501 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: Leaving directory `/home/parallels/ROSWS/tumws/build/CMakeFiles/CMakeTmp'
-make[1]: *** [cmTryCompileExec1187843886] Error 1
-make: *** [cmTryCompileExec1187843886/fast] Error 2
+make[1]: *** [cmTryCompileExec3471047501] Error 1
+make[1]: Leaving directory `/home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3471047501/fast] Error 2
 
 
 Determining if the Q_WS_WIN exist failed with the following output:
-Change Dir: /home/parallels/ROSWS/tumws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2241102590/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2241102590.dir/build.make CMakeFiles/cmTryCompileExec2241102590.dir/build
-make[1]: Entering directory `/home/parallels/ROSWS/tumws/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/parallels/ROSWS/tumws/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2241102590.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2241102590.dir/CheckSymbolExists.cxx.o -c /home/parallels/ROSWS/tumws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-/home/parallels/ROSWS/tumws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
-/home/parallels/ROSWS/tumws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+Run Build Command:/usr/bin/make "cmTryCompileExec3889093799/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3889093799.dir/build.make CMakeFiles/cmTryCompileExec3889093799.dir/build
+make[1]: Entering directory `/home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3889093799.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec3889093799.dir/CheckSymbolExists.cxx.o -c /home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
    return ((int*)(&Q_WS_WIN))[argc];
                    ^
-make[1]: *** [CMakeFiles/cmTryCompileExec2241102590.dir/CheckSymbolExists.cxx.o] Error 1
-make[1]: Leaving directory `/home/parallels/ROSWS/tumws/build/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec2241102590/fast] Error 2
+make[1]: *** [CMakeFiles/cmTryCompileExec3889093799.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory `/home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3889093799/fast] Error 2
 
-File /home/parallels/ROSWS/tumws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <QtCore/qglobal.h>
 
@@ -84,23 +84,23 @@ int main(int argc, char** argv)
 }
 
 Determining if the Q_WS_QWS exist failed with the following output:
-Change Dir: /home/parallels/ROSWS/tumws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1791798419/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1791798419.dir/build.make CMakeFiles/cmTryCompileExec1791798419.dir/build
-make[1]: Entering directory `/home/parallels/ROSWS/tumws/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/parallels/ROSWS/tumws/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1791798419.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec1791798419.dir/CheckSymbolExists.cxx.o -c /home/parallels/ROSWS/tumws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-/home/parallels/ROSWS/tumws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
-/home/parallels/ROSWS/tumws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+Run Build Command:/usr/bin/make "cmTryCompileExec1928495108/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1928495108.dir/build.make CMakeFiles/cmTryCompileExec1928495108.dir/build
+make[1]: Entering directory `/home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1928495108.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec1928495108.dir/CheckSymbolExists.cxx.o -c /home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
    return ((int*)(&Q_WS_QWS))[argc];
                    ^
-make[1]: *** [CMakeFiles/cmTryCompileExec1791798419.dir/CheckSymbolExists.cxx.o] Error 1
-make[1]: Leaving directory `/home/parallels/ROSWS/tumws/build/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec1791798419/fast] Error 2
+make[1]: *** [CMakeFiles/cmTryCompileExec1928495108.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory `/home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1928495108/fast] Error 2
 
-File /home/parallels/ROSWS/tumws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <QtCore/qglobal.h>
 
@@ -116,23 +116,23 @@ int main(int argc, char** argv)
 }
 
 Determining if the Q_WS_MAC exist failed with the following output:
-Change Dir: /home/parallels/ROSWS/tumws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3601395288/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3601395288.dir/build.make CMakeFiles/cmTryCompileExec3601395288.dir/build
-make[1]: Entering directory `/home/parallels/ROSWS/tumws/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/parallels/ROSWS/tumws/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec3601395288.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec3601395288.dir/CheckSymbolExists.cxx.o -c /home/parallels/ROSWS/tumws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-/home/parallels/ROSWS/tumws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
-/home/parallels/ROSWS/tumws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+Run Build Command:/usr/bin/make "cmTryCompileExec2215494520/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2215494520.dir/build.make CMakeFiles/cmTryCompileExec2215494520.dir/build
+make[1]: Entering directory `/home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2215494520.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2215494520.dir/CheckSymbolExists.cxx.o -c /home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
    return ((int*)(&Q_WS_MAC))[argc];
                    ^
-make[1]: Leaving directory `/home/parallels/ROSWS/tumws/build/CMakeFiles/CMakeTmp'
-make[1]: *** [CMakeFiles/cmTryCompileExec3601395288.dir/CheckSymbolExists.cxx.o] Error 1
-make: *** [cmTryCompileExec3601395288/fast] Error 2
+make[1]: *** [CMakeFiles/cmTryCompileExec2215494520.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory `/home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2215494520/fast] Error 2
 
-File /home/parallels/ROSWS/tumws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <QtCore/qglobal.h>
 

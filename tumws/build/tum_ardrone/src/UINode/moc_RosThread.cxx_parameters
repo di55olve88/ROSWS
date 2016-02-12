@@ -1,12 +1,11 @@
--I/home/parallels/ROSWS/tumws/devel/include
--I/home/parallels/ROSWS/tumws/devel/include
--I/home/parallels/ROSWS/argpsws/devel/include
+-I/home/dualboot/AKILAWS/ROSWS/tumws/devel/include
+-I/home/dualboot/AKILAWS/ROSWS/tumws/devel/include
 -I/opt/ros/indigo/include
 -I/usr/include
 -I/usr/include/opencv
--I/home/parallels/ROSWS/tumws/build/thirdparty/src/thirdparty/TooN/include
--I/home/parallels/ROSWS/tumws/build/thirdparty/src/thirdparty/libcvd/include
--I/home/parallels/ROSWS/tumws/build/thirdparty/src/thirdparty/gvars3/include
+-I/home/dualboot/AKILAWS/ROSWS/tumws/build/thirdparty/src/thirdparty/TooN/include
+-I/home/dualboot/AKILAWS/ROSWS/tumws/build/thirdparty/src/thirdparty/libcvd/include
+-I/home/dualboot/AKILAWS/ROSWS/tumws/build/thirdparty/src/thirdparty/gvars3/include
 -I/usr/include/qt4
 -I/usr/include/qt4/QtGui
 -I/usr/include/qt4/QtCore
@@ -18,5 +17,5 @@
 -DQT_GUI_LIB
 -DQT_CORE_LIB
 -o
-/home/parallels/ROSWS/tumws/build/tum_ardrone/src/UINode/moc_RosThread.cxx
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/UINode/RosThread.h
+/home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone/src/UINode/moc_RosThread.cxx
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/UINode/RosThread.h

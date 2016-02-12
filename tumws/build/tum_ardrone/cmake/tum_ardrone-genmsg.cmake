@@ -2,7 +2,7 @@
 
 message(STATUS "tum_ardrone: 1 messages, 5 services")
 
-set(MSG_I_FLAGS "-Itum_ardrone:/home/parallels/ROSWS/tumws/src/tum_ardrone/msg;-Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Itum_ardrone:/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/msg;-Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -15,34 +15,34 @@ add_custom_target(tum_ardrone_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/parallels/ROSWS/tumws/src/tum_ardrone/srv/SetMaxControl.srv" NAME_WE)
+get_filename_component(_filename "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetStayWithinDistance.srv" NAME_WE)
 add_custom_target(_tum_ardrone_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "tum_ardrone" "/home/parallels/ROSWS/tumws/src/tum_ardrone/srv/SetMaxControl.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "tum_ardrone" "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetStayWithinDistance.srv" ""
 )
 
-get_filename_component(_filename "/home/parallels/ROSWS/tumws/src/tum_ardrone/srv/SetInitialReachDistance.srv" NAME_WE)
+get_filename_component(_filename "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetInitialReachDistance.srv" NAME_WE)
 add_custom_target(_tum_ardrone_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "tum_ardrone" "/home/parallels/ROSWS/tumws/src/tum_ardrone/srv/SetInitialReachDistance.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "tum_ardrone" "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetInitialReachDistance.srv" ""
 )
 
-get_filename_component(_filename "/home/parallels/ROSWS/tumws/src/tum_ardrone/srv/SetStayTime.srv" NAME_WE)
+get_filename_component(_filename "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetReference.srv" NAME_WE)
 add_custom_target(_tum_ardrone_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "tum_ardrone" "/home/parallels/ROSWS/tumws/src/tum_ardrone/srv/SetStayTime.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "tum_ardrone" "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetReference.srv" ""
 )
 
-get_filename_component(_filename "/home/parallels/ROSWS/tumws/src/tum_ardrone/srv/SetStayWithinDistance.srv" NAME_WE)
+get_filename_component(_filename "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetMaxControl.srv" NAME_WE)
 add_custom_target(_tum_ardrone_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "tum_ardrone" "/home/parallels/ROSWS/tumws/src/tum_ardrone/srv/SetStayWithinDistance.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "tum_ardrone" "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetMaxControl.srv" ""
 )
 
-get_filename_component(_filename "/home/parallels/ROSWS/tumws/src/tum_ardrone/msg/filter_state.msg" NAME_WE)
+get_filename_component(_filename "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetStayTime.srv" NAME_WE)
 add_custom_target(_tum_ardrone_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "tum_ardrone" "/home/parallels/ROSWS/tumws/src/tum_ardrone/msg/filter_state.msg" "std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "tum_ardrone" "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetStayTime.srv" ""
 )
 
-get_filename_component(_filename "/home/parallels/ROSWS/tumws/src/tum_ardrone/srv/SetReference.srv" NAME_WE)
+get_filename_component(_filename "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/msg/filter_state.msg" NAME_WE)
 add_custom_target(_tum_ardrone_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "tum_ardrone" "/home/parallels/ROSWS/tumws/src/tum_ardrone/srv/SetReference.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "tum_ardrone" "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/msg/filter_state.msg" "std_msgs/Header"
 )
 
 #
@@ -52,7 +52,7 @@ add_custom_target(_tum_ardrone_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(tum_ardrone
-  "/home/parallels/ROSWS/tumws/src/tum_ardrone/msg/filter_state.msg"
+  "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/msg/filter_state.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/tum_ardrone
@@ -60,31 +60,31 @@ _generate_msg_cpp(tum_ardrone
 
 ### Generating Services
 _generate_srv_cpp(tum_ardrone
-  "/home/parallels/ROSWS/tumws/src/tum_ardrone/srv/SetInitialReachDistance.srv"
+  "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetStayTime.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/tum_ardrone
 )
 _generate_srv_cpp(tum_ardrone
-  "/home/parallels/ROSWS/tumws/src/tum_ardrone/srv/SetMaxControl.srv"
+  "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetStayWithinDistance.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/tum_ardrone
 )
 _generate_srv_cpp(tum_ardrone
-  "/home/parallels/ROSWS/tumws/src/tum_ardrone/srv/SetReference.srv"
+  "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetInitialReachDistance.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/tum_ardrone
 )
 _generate_srv_cpp(tum_ardrone
-  "/home/parallels/ROSWS/tumws/src/tum_ardrone/srv/SetStayWithinDistance.srv"
+  "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetMaxControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/tum_ardrone
 )
 _generate_srv_cpp(tum_ardrone
-  "/home/parallels/ROSWS/tumws/src/tum_ardrone/srv/SetStayTime.srv"
+  "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetReference.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/tum_ardrone
@@ -102,17 +102,17 @@ add_custom_target(tum_ardrone_generate_messages_cpp
 add_dependencies(tum_ardrone_generate_messages tum_ardrone_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/parallels/ROSWS/tumws/src/tum_ardrone/srv/SetMaxControl.srv" NAME_WE)
+get_filename_component(_filename "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetStayWithinDistance.srv" NAME_WE)
 add_dependencies(tum_ardrone_generate_messages_cpp _tum_ardrone_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/parallels/ROSWS/tumws/src/tum_ardrone/srv/SetInitialReachDistance.srv" NAME_WE)
+get_filename_component(_filename "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetInitialReachDistance.srv" NAME_WE)
 add_dependencies(tum_ardrone_generate_messages_cpp _tum_ardrone_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/parallels/ROSWS/tumws/src/tum_ardrone/srv/SetStayTime.srv" NAME_WE)
+get_filename_component(_filename "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetReference.srv" NAME_WE)
 add_dependencies(tum_ardrone_generate_messages_cpp _tum_ardrone_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/parallels/ROSWS/tumws/src/tum_ardrone/srv/SetStayWithinDistance.srv" NAME_WE)
+get_filename_component(_filename "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetMaxControl.srv" NAME_WE)
 add_dependencies(tum_ardrone_generate_messages_cpp _tum_ardrone_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/parallels/ROSWS/tumws/src/tum_ardrone/msg/filter_state.msg" NAME_WE)
+get_filename_component(_filename "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetStayTime.srv" NAME_WE)
 add_dependencies(tum_ardrone_generate_messages_cpp _tum_ardrone_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/parallels/ROSWS/tumws/src/tum_ardrone/srv/SetReference.srv" NAME_WE)
+get_filename_component(_filename "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/msg/filter_state.msg" NAME_WE)
 add_dependencies(tum_ardrone_generate_messages_cpp _tum_ardrone_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -125,7 +125,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS tum_ardrone_generate_messages_cpp)
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(tum_ardrone
-  "/home/parallels/ROSWS/tumws/src/tum_ardrone/msg/filter_state.msg"
+  "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/msg/filter_state.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/tum_ardrone
@@ -133,31 +133,31 @@ _generate_msg_lisp(tum_ardrone
 
 ### Generating Services
 _generate_srv_lisp(tum_ardrone
-  "/home/parallels/ROSWS/tumws/src/tum_ardrone/srv/SetInitialReachDistance.srv"
+  "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetStayTime.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/tum_ardrone
 )
 _generate_srv_lisp(tum_ardrone
-  "/home/parallels/ROSWS/tumws/src/tum_ardrone/srv/SetMaxControl.srv"
+  "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetStayWithinDistance.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/tum_ardrone
 )
 _generate_srv_lisp(tum_ardrone
-  "/home/parallels/ROSWS/tumws/src/tum_ardrone/srv/SetReference.srv"
+  "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetInitialReachDistance.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/tum_ardrone
 )
 _generate_srv_lisp(tum_ardrone
-  "/home/parallels/ROSWS/tumws/src/tum_ardrone/srv/SetStayWithinDistance.srv"
+  "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetMaxControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/tum_ardrone
 )
 _generate_srv_lisp(tum_ardrone
-  "/home/parallels/ROSWS/tumws/src/tum_ardrone/srv/SetStayTime.srv"
+  "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetReference.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/tum_ardrone
@@ -175,17 +175,17 @@ add_custom_target(tum_ardrone_generate_messages_lisp
 add_dependencies(tum_ardrone_generate_messages tum_ardrone_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/parallels/ROSWS/tumws/src/tum_ardrone/srv/SetMaxControl.srv" NAME_WE)
+get_filename_component(_filename "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetStayWithinDistance.srv" NAME_WE)
 add_dependencies(tum_ardrone_generate_messages_lisp _tum_ardrone_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/parallels/ROSWS/tumws/src/tum_ardrone/srv/SetInitialReachDistance.srv" NAME_WE)
+get_filename_component(_filename "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetInitialReachDistance.srv" NAME_WE)
 add_dependencies(tum_ardrone_generate_messages_lisp _tum_ardrone_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/parallels/ROSWS/tumws/src/tum_ardrone/srv/SetStayTime.srv" NAME_WE)
+get_filename_component(_filename "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetReference.srv" NAME_WE)
 add_dependencies(tum_ardrone_generate_messages_lisp _tum_ardrone_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/parallels/ROSWS/tumws/src/tum_ardrone/srv/SetStayWithinDistance.srv" NAME_WE)
+get_filename_component(_filename "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetMaxControl.srv" NAME_WE)
 add_dependencies(tum_ardrone_generate_messages_lisp _tum_ardrone_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/parallels/ROSWS/tumws/src/tum_ardrone/msg/filter_state.msg" NAME_WE)
+get_filename_component(_filename "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetStayTime.srv" NAME_WE)
 add_dependencies(tum_ardrone_generate_messages_lisp _tum_ardrone_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/parallels/ROSWS/tumws/src/tum_ardrone/srv/SetReference.srv" NAME_WE)
+get_filename_component(_filename "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/msg/filter_state.msg" NAME_WE)
 add_dependencies(tum_ardrone_generate_messages_lisp _tum_ardrone_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -198,7 +198,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS tum_ardrone_generate_messages_lisp)
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(tum_ardrone
-  "/home/parallels/ROSWS/tumws/src/tum_ardrone/msg/filter_state.msg"
+  "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/msg/filter_state.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/tum_ardrone
@@ -206,31 +206,31 @@ _generate_msg_py(tum_ardrone
 
 ### Generating Services
 _generate_srv_py(tum_ardrone
-  "/home/parallels/ROSWS/tumws/src/tum_ardrone/srv/SetInitialReachDistance.srv"
+  "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetStayTime.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/tum_ardrone
 )
 _generate_srv_py(tum_ardrone
-  "/home/parallels/ROSWS/tumws/src/tum_ardrone/srv/SetMaxControl.srv"
+  "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetStayWithinDistance.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/tum_ardrone
 )
 _generate_srv_py(tum_ardrone
-  "/home/parallels/ROSWS/tumws/src/tum_ardrone/srv/SetReference.srv"
+  "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetInitialReachDistance.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/tum_ardrone
 )
 _generate_srv_py(tum_ardrone
-  "/home/parallels/ROSWS/tumws/src/tum_ardrone/srv/SetStayWithinDistance.srv"
+  "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetMaxControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/tum_ardrone
 )
 _generate_srv_py(tum_ardrone
-  "/home/parallels/ROSWS/tumws/src/tum_ardrone/srv/SetStayTime.srv"
+  "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetReference.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/tum_ardrone
@@ -248,17 +248,17 @@ add_custom_target(tum_ardrone_generate_messages_py
 add_dependencies(tum_ardrone_generate_messages tum_ardrone_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/parallels/ROSWS/tumws/src/tum_ardrone/srv/SetMaxControl.srv" NAME_WE)
+get_filename_component(_filename "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetStayWithinDistance.srv" NAME_WE)
 add_dependencies(tum_ardrone_generate_messages_py _tum_ardrone_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/parallels/ROSWS/tumws/src/tum_ardrone/srv/SetInitialReachDistance.srv" NAME_WE)
+get_filename_component(_filename "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetInitialReachDistance.srv" NAME_WE)
 add_dependencies(tum_ardrone_generate_messages_py _tum_ardrone_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/parallels/ROSWS/tumws/src/tum_ardrone/srv/SetStayTime.srv" NAME_WE)
+get_filename_component(_filename "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetReference.srv" NAME_WE)
 add_dependencies(tum_ardrone_generate_messages_py _tum_ardrone_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/parallels/ROSWS/tumws/src/tum_ardrone/srv/SetStayWithinDistance.srv" NAME_WE)
+get_filename_component(_filename "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetMaxControl.srv" NAME_WE)
 add_dependencies(tum_ardrone_generate_messages_py _tum_ardrone_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/parallels/ROSWS/tumws/src/tum_ardrone/msg/filter_state.msg" NAME_WE)
+get_filename_component(_filename "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetStayTime.srv" NAME_WE)
 add_dependencies(tum_ardrone_generate_messages_py _tum_ardrone_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/parallels/ROSWS/tumws/src/tum_ardrone/srv/SetReference.srv" NAME_WE)
+get_filename_component(_filename "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/msg/filter_state.msg" NAME_WE)
 add_dependencies(tum_ardrone_generate_messages_py _tum_ardrone_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

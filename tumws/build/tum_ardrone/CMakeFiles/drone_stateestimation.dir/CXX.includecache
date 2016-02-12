@@ -6,25 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/parallels/ROSWS/argpsws/devel/include/ardrone_autonomy/Navdata.h
-string
--
-vector
--
-map
--
-ros/types.h
--
-ros/serialization.h
--
-ros/builtin_message_traits.h
--
-ros/message_operations.h
--
-std_msgs/Header.h
--
-
-/home/parallels/ROSWS/tumws/devel/include/tum_ardrone/StateestimationParamsConfig.h
+/home/dualboot/AKILAWS/ROSWS/tumws/devel/include/tum_ardrone/StateestimationParamsConfig.h
 dynamic_reconfigure/config_tools.h
 -
 limits
@@ -42,7 +24,7 @@ dynamic_reconfigure/config_init_mutex.h
 boost/any.hpp
 -
 
-/home/parallels/ROSWS/tumws/devel/include/tum_ardrone/filter_state.h
+/home/dualboot/AKILAWS/ROSWS/tumws/devel/include/tum_ardrone/filter_state.h
 string
 -
 vector
@@ -60,7 +42,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/HelperFunctions.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/HelperFunctions.h
 stdlib.h
 -
 TooN/TooN.h
@@ -68,15 +50,15 @@ TooN/TooN.h
 TooN/so3.h
 -
 ros/ros.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/ros/ros.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/ros/ros.h
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/DroneKalmanFilter.cpp
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/DroneKalmanFilter.cpp
 DroneKalmanFilter.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/DroneKalmanFilter.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/DroneKalmanFilter.h
 EstimationNode.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/EstimationNode.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/EstimationNode.h
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/DroneKalmanFilter.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/DroneKalmanFilter.h
 TooN/TooN.h
 -
 deque
@@ -94,93 +76,93 @@ geometry_msgs/TwistStamped.h
 pthread.h
 -
 ../HelperFunctions.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/HelperFunctions.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/HelperFunctions.h
 tum_ardrone/filter_state.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/tum_ardrone/filter_state.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/tum_ardrone/filter_state.h
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/EstimationNode.cpp
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/EstimationNode.cpp
 EstimationNode.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/EstimationNode.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/EstimationNode.h
 ros/ros.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/ros/ros.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/ros/ros.h
 ros/package.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/ros/package.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/ros/package.h
 geometry_msgs/Twist.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/geometry_msgs/Twist.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/geometry_msgs/Twist.h
 sensor_msgs/Image.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/sensor_msgs/Image.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/sensor_msgs/Image.h
 tf/tfMessage.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/tf/tfMessage.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/tf/tfMessage.h
 tf/transform_listener.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/tf/transform_listener.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/tf/transform_listener.h
 tf/transform_broadcaster.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/tf/transform_broadcaster.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/tf/transform_broadcaster.h
 std_msgs/Empty.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/std_msgs/Empty.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/std_msgs/Empty.h
 std_srvs/Empty.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/std_srvs/Empty.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/std_srvs/Empty.h
 ../HelperFunctions.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/HelperFunctions.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/HelperFunctions.h
 DroneKalmanFilter.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/DroneKalmanFilter.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/DroneKalmanFilter.h
 ardrone_autonomy/Navdata.h
 -
 deque
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/deque
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/deque
 tum_ardrone/filter_state.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/tum_ardrone/filter_state.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/tum_ardrone/filter_state.h
 PTAMWrapper.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAMWrapper.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAMWrapper.h
 std_msgs/String.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/std_msgs/String.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/std_msgs/String.h
 std_msgs/Empty.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/std_msgs/Empty.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/std_msgs/Empty.h
 std_srvs/Empty.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/std_srvs/Empty.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/std_srvs/Empty.h
 MapView.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/MapView.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/MapView.h
 sys/stat.h
 -
 string
 -
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/EstimationNode.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/EstimationNode.h
 ros/ros.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/ros/ros.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/ros/ros.h
 geometry_msgs/Twist.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/geometry_msgs/Twist.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/geometry_msgs/Twist.h
 sensor_msgs/Image.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/sensor_msgs/Image.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/sensor_msgs/Image.h
 tf/tfMessage.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/tf/tfMessage.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/tf/tfMessage.h
 tf/transform_listener.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/tf/transform_listener.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/tf/transform_listener.h
 tf/transform_broadcaster.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/tf/transform_broadcaster.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/tf/transform_broadcaster.h
 std_msgs/Empty.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/std_msgs/Empty.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/std_msgs/Empty.h
 std_srvs/Empty.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/std_srvs/Empty.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/std_srvs/Empty.h
 ardrone_autonomy/Navdata.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/ardrone_autonomy/Navdata.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/ardrone_autonomy/Navdata.h
 tum_ardrone/filter_state.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/tum_ardrone/filter_state.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/tum_ardrone/filter_state.h
 std_msgs/String.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/std_msgs/String.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/std_msgs/String.h
 dynamic_reconfigure/server.h
 -
 tum_ardrone/StateestimationParamsConfig.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/tum_ardrone/StateestimationParamsConfig.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/tum_ardrone/StateestimationParamsConfig.h
 TooN/se3.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/TooN/se3.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/TooN/se3.h
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/GLWindow2.cc
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/GLWindow2.cc
 PTAM/OpenGL.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/OpenGL.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/OpenGL.h
 GLWindow2.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/GLWindow2.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/GLWindow2.h
 GLWindowMenu.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/GLWindowMenu.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/GLWindowMenu.h
 stdlib.h
 -
 gvars3/GStringUtil.h
@@ -190,19 +172,19 @@ gvars3/instances.h
 TooN/helpers.h
 -
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/GLWindow2.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/GLWindow2.h
 cvd/glwindow.h
 -
 TooN/TooN.h
 -
 MouseKeyHandler.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/MouseKeyHandler.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/MouseKeyHandler.h
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/GLWindowMenu.cc
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/GLWindowMenu.cc
 PTAM/OpenGL.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/OpenGL.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/OpenGL.h
 GLWindowMenu.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/GLWindowMenu.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/GLWindowMenu.h
 gvars3/instances.h
 -
 gvars3/GStringUtil.h
@@ -210,7 +192,7 @@ gvars3/GStringUtil.h
 sstream
 -
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/GLWindowMenu.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/GLWindowMenu.h
 vector
 -
 map
@@ -218,47 +200,47 @@ map
 gvars3/gvars3.h
 -
 GLWindow2.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/GLWindow2.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/GLWindow2.h
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/MapView.cpp
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/MapView.cpp
 MapView.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/MapView.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/MapView.h
 ../HelperFunctions.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/HelperFunctions.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/HelperFunctions.h
 cvd/gl_helpers.h
 -
 gvars3/GStringUtil.h
 -
 Predictor.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/Predictor.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/Predictor.h
 gvars3/instances.h
 -
 DroneKalmanFilter.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/DroneKalmanFilter.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/DroneKalmanFilter.h
 PTAMWrapper.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAMWrapper.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAMWrapper.h
 EstimationNode.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/EstimationNode.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/EstimationNode.h
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/MapView.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/MapView.h
 GLWindow2.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/GLWindow2.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/GLWindow2.h
 deque
 -
 cvd/thread.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/cvd/thread.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/cvd/thread.h
 TooN/se3.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/TooN/se3.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/TooN/se3.h
 MouseKeyHandler.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/MouseKeyHandler.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/MouseKeyHandler.h
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/MouseKeyHandler.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/MouseKeyHandler.h
 cvd/image.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/cvd/image.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/cvd/image.h
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/ATANCamera.cc
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/ATANCamera.cc
 ATANCamera.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/ATANCamera.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/ATANCamera.h
 TooN/helpers.h
 -
 cvd/vector_image_ref.h
@@ -268,7 +250,7 @@ iostream
 gvars3/instances.h
 -
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/ATANCamera.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/ATANCamera.h
 TooN/TooN.h
 -
 cmath
@@ -278,11 +260,11 @@ cvd/vector_image_ref.h
 gvars3/gvars3.h
 -
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/Bundle.cc
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/Bundle.cc
 Bundle.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/Bundle.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/Bundle.h
 MEstimator.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/MEstimator.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/MEstimator.h
 TooN/helpers.h
 -
 TooN/Cholesky.h
@@ -294,11 +276,11 @@ iomanip
 gvars3/instances.h
 -
 settingsCustom.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/settingsCustom.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/settingsCustom.h
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/Bundle.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/Bundle.h
 ATANCamera.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/ATANCamera.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/ATANCamera.h
 TooN/TooN.h
 -
 TooN/se3.h
@@ -312,11 +294,11 @@ set
 list
 -
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/HomographyInit.cc
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/HomographyInit.cc
 HomographyInit.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/HomographyInit.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/HomographyInit.h
 SmallMatrixOpts.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/SmallMatrixOpts.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/SmallMatrixOpts.h
 utility
 -
 TooN/se3.h
@@ -328,9 +310,9 @@ TooN/SymEigen.h
 TooN/wls.h
 -
 MEstimator.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/MEstimator.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/MEstimator.h
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/HomographyInit.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/HomographyInit.h
 TooN/TooN.h
 -
 TooN/se3.h
@@ -338,21 +320,21 @@ TooN/se3.h
 vector
 -
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/KeyFrame.cc
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/KeyFrame.cc
 KeyFrame.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/KeyFrame.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/KeyFrame.h
 ShiTomasi.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/ShiTomasi.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/ShiTomasi.h
 SmallBlurryImage.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/SmallBlurryImage.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/SmallBlurryImage.h
 cvd/vision.h
 -
 cvd/fast_corner.h
 -
 settingsCustom.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/settingsCustom.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/settingsCustom.h
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/KeyFrame.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/KeyFrame.h
 TooN/TooN.h
 -
 TooN/se3.h
@@ -368,13 +350,13 @@ set
 map
 -
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/LevelHelpers.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/LevelHelpers.h
 TooN/TooN.h
 -
 cvd/image_ref.h
 -
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/MEstimator.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/MEstimator.h
 TooN/TooN.h
 -
 vector
@@ -384,13 +366,13 @@ algorithm
 cassert
 -
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/Map.cc
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/Map.cc
 Map.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/Map.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/Map.h
 MapPoint.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/MapPoint.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/MapPoint.h
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/Map.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/Map.h
 vector
 -
 TooN/se3.h
@@ -398,19 +380,19 @@ TooN/se3.h
 cvd/image.h
 -
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/MapMaker.cc
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/MapMaker.cc
 MapMaker.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/MapMaker.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/MapMaker.h
 MapPoint.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/MapPoint.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/MapPoint.h
 Bundle.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/Bundle.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/Bundle.h
 PatchFinder.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/PatchFinder.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/PatchFinder.h
 SmallMatrixOpts.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/SmallMatrixOpts.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/SmallMatrixOpts.h
 HomographyInit.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/HomographyInit.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/HomographyInit.h
 cvd/vector_image_ref.h
 -
 cvd/vision.h
@@ -430,9 +412,9 @@ algorithm
 windows.h
 -
 settingsCustom.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/settingsCustom.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/settingsCustom.h
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/MapMaker.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/MapMaker.h
 cvd/image.h
 -
 cvd/byte.h
@@ -440,21 +422,21 @@ cvd/byte.h
 cvd/thread.h
 -
 Map.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/Map.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/Map.h
 KeyFrame.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/KeyFrame.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/KeyFrame.h
 ATANCamera.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/ATANCamera.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/ATANCamera.h
 queue
 -
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/MapPoint.cc
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/MapPoint.cc
 MapPoint.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/MapPoint.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/MapPoint.h
 KeyFrame.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/KeyFrame.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/KeyFrame.h
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/MapPoint.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/MapPoint.h
 TooN/TooN.h
 -
 cvd/image_ref.h
@@ -464,11 +446,11 @@ cvd/timer.h
 set
 -
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/MiniPatch.cc
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/MiniPatch.cc
 MiniPatch.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/MiniPatch.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/MiniPatch.h
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/MiniPatch.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/MiniPatch.h
 cvd/image.h
 -
 cvd/byte.h
@@ -480,7 +462,7 @@ TooN/TooN.h
 vector
 -
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/OpenGL.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/OpenGL.h
 GL/gl.h
 -
 GL/glext.h
@@ -494,13 +476,13 @@ GL/glew.h
 cvd/gl_helpers.h
 -
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/PatchFinder.cc
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/PatchFinder.cc
 PatchFinder.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/PatchFinder.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/PatchFinder.h
 SmallMatrixOpts.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/SmallMatrixOpts.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/SmallMatrixOpts.h
 KeyFrame.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/KeyFrame.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/KeyFrame.h
 cvd/vision.h
 -
 cvd/vector_image_ref.h
@@ -512,7 +494,7 @@ TooN/Cholesky.h
 tmmintrin.h
 -
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/PatchFinder.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/PatchFinder.h
 TooN/TooN.h
 -
 TooN/se3.h
@@ -522,45 +504,45 @@ cvd/image.h
 cvd/byte.h
 -
 MapPoint.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/MapPoint.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/MapPoint.h
 LevelHelpers.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/LevelHelpers.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/LevelHelpers.h
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/Relocaliser.cc
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/Relocaliser.cc
 Relocaliser.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/Relocaliser.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/Relocaliser.h
 SmallBlurryImage.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/SmallBlurryImage.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/SmallBlurryImage.h
 cvd/utility.h
 -
 gvars3/instances.h
 -
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/Relocaliser.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/Relocaliser.h
 TooN/se2.h
 -
 ATANCamera.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/ATANCamera.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/ATANCamera.h
 SmallBlurryImage.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/SmallBlurryImage.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/SmallBlurryImage.h
 Map.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/Map.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/Map.h
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/ShiTomasi.cc
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/ShiTomasi.cc
 ShiTomasi.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/ShiTomasi.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/ShiTomasi.h
 math.h
 -
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/ShiTomasi.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/ShiTomasi.h
 cvd/image.h
 -
 cvd/byte.h
 -
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/SmallBlurryImage.cc
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/SmallBlurryImage.cc
 SmallBlurryImage.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/SmallBlurryImage.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/SmallBlurryImage.h
 cvd/utility.h
 -
 cvd/convolution.h
@@ -574,7 +556,7 @@ TooN/Cholesky.h
 TooN/wls.h
 -
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/SmallBlurryImage.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/SmallBlurryImage.h
 cvd/image.h
 -
 cvd/byte.h
@@ -584,29 +566,29 @@ TooN/se2.h
 TooN/se3.h
 -
 KeyFrame.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/KeyFrame.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/KeyFrame.h
 ATANCamera.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/ATANCamera.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/ATANCamera.h
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/SmallMatrixOpts.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/SmallMatrixOpts.h
 cassert
 -
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/Tracker.cc
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/Tracker.cc
 OpenGL.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/OpenGL.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/OpenGL.h
 Tracker.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/Tracker.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/Tracker.h
 MEstimator.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/MEstimator.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/MEstimator.h
 ShiTomasi.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/ShiTomasi.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/ShiTomasi.h
 SmallMatrixOpts.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/SmallMatrixOpts.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/SmallMatrixOpts.h
 PatchFinder.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/PatchFinder.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/PatchFinder.h
 TrackerData.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/TrackerData.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/TrackerData.h
 cvd/utility.h
 -
 cvd/gl_helpers.h
@@ -626,19 +608,19 @@ fstream
 fcntl.h
 -
 settingsCustom.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/settingsCustom.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/settingsCustom.h
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/Tracker.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/Tracker.h
 MapMaker.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/MapMaker.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/MapMaker.h
 ATANCamera.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/ATANCamera.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/ATANCamera.h
 MiniPatch.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/MiniPatch.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/MiniPatch.h
 Relocaliser.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/Relocaliser.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/Relocaliser.h
 ../Predictor.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/Predictor.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/Predictor.h
 sstream
 -
 vector
@@ -646,45 +628,45 @@ vector
 list
 -
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/TrackerData.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/TrackerData.h
 PatchFinder.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/PatchFinder.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/PatchFinder.h
 ATANCamera.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/ATANCamera.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/ATANCamera.h
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/settingsCustom.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/settingsCustom.h
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAMWrapper.cpp
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAMWrapper.cpp
 PTAMWrapper.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAMWrapper.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAMWrapper.h
 cvd/gl_helpers.h
 -
 gvars3/instances.h
 -
 PTAM/ATANCamera.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/ATANCamera.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/ATANCamera.h
 PTAM/MapMaker.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/MapMaker.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/MapMaker.h
 PTAM/Tracker.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/Tracker.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/Tracker.h
 PTAM/Map.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/Map.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/Map.h
 PTAM/MapPoint.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/MapPoint.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAM/MapPoint.h
 ../HelperFunctions.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/HelperFunctions.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/HelperFunctions.h
 Predictor.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/Predictor.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/Predictor.h
 DroneKalmanFilter.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/DroneKalmanFilter.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/DroneKalmanFilter.h
 cv_bridge/cv_bridge.h
 -
 sensor_msgs/image_encodings.h
 -
 GLWindow2.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/GLWindow2.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/GLWindow2.h
 EstimationNode.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/EstimationNode.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/EstimationNode.h
 iostream
 -
 fstream
@@ -692,55 +674,55 @@ fstream
 string
 -
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAMWrapper.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAMWrapper.h
 GLWindow2.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/GLWindow2.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/GLWindow2.h
 TooN/se3.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/TooN/se3.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/TooN/se3.h
 deque
 -
 sensor_msgs/Image.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/sensor_msgs/Image.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/sensor_msgs/Image.h
 ardrone_autonomy/Navdata.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/ardrone_autonomy/Navdata.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/ardrone_autonomy/Navdata.h
 cvd/thread.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/cvd/thread.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/cvd/thread.h
 cvd/image.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/cvd/image.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/cvd/image.h
 cvd/byte.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/cvd/byte.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/cvd/byte.h
 MouseKeyHandler.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/MouseKeyHandler.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/MouseKeyHandler.h
 boost/thread.hpp
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/boost/thread.hpp
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/boost/thread.hpp
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/Predictor.cpp
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/Predictor.cpp
 Predictor.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/Predictor.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/Predictor.h
 ../HelperFunctions.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/HelperFunctions.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/HelperFunctions.h
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/Predictor.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/Predictor.h
 TooN/TooN.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/TooN/TooN.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/TooN/TooN.h
 TooN/so3.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/TooN/so3.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/TooN/so3.h
 TooN/se3.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/TooN/se3.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/TooN/se3.h
 string
 -
 ardrone_autonomy/Navdata.h
 -
 
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/main_stateestimation.cpp
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/main_stateestimation.cpp
 EstimationNode.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/EstimationNode.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/EstimationNode.h
 ros/ros.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/ros/ros.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/ros/ros.h
 PTAMWrapper.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAMWrapper.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/PTAMWrapper.h
 MapView.h
-/home/parallels/ROSWS/tumws/src/tum_ardrone/src/stateestimation/MapView.h
+/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/stateestimation/MapView.h
 
 /opt/ros/indigo/include/XmlRpcDecl.h
 ros/macros.h
@@ -756,6 +738,24 @@ string
 vector
 -
 time.h
+-
+
+/opt/ros/indigo/include/ardrone_autonomy/Navdata.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+std_msgs/Header.h
 -
 
 /opt/ros/indigo/include/cv_bridge/cv_bridge.h

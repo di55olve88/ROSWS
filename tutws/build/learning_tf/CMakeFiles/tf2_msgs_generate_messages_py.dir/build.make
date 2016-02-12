@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/akila/ROSWS/tutws/src
+CMAKE_SOURCE_DIR = /home/dualboot/AKILAWS/ROSWS/tutws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/akila/ROSWS/tutws/build
+CMAKE_BINARY_DIR = /home/dualboot/AKILAWS/ROSWS/tutws/build
 
 # Utility rule file for tf2_msgs_generate_messages_py.
 
@@ -56,10 +56,10 @@ learning_tf/CMakeFiles/tf2_msgs_generate_messages_py.dir/build: tf2_msgs_generat
 .PHONY : learning_tf/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
 
 learning_tf/CMakeFiles/tf2_msgs_generate_messages_py.dir/clean:
-	cd /home/akila/ROSWS/tutws/build/learning_tf && $(CMAKE_COMMAND) -P CMakeFiles/tf2_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/dualboot/AKILAWS/ROSWS/tutws/build/learning_tf && $(CMAKE_COMMAND) -P CMakeFiles/tf2_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : learning_tf/CMakeFiles/tf2_msgs_generate_messages_py.dir/clean
 
 learning_tf/CMakeFiles/tf2_msgs_generate_messages_py.dir/depend:
-	cd /home/akila/ROSWS/tutws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/akila/ROSWS/tutws/src /home/akila/ROSWS/tutws/src/learning_tf /home/akila/ROSWS/tutws/build /home/akila/ROSWS/tutws/build/learning_tf /home/akila/ROSWS/tutws/build/learning_tf/CMakeFiles/tf2_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dualboot/AKILAWS/ROSWS/tutws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dualboot/AKILAWS/ROSWS/tutws/src /home/dualboot/AKILAWS/ROSWS/tutws/src/learning_tf /home/dualboot/AKILAWS/ROSWS/tutws/build /home/dualboot/AKILAWS/ROSWS/tutws/build/learning_tf /home/dualboot/AKILAWS/ROSWS/tutws/build/learning_tf/CMakeFiles/tf2_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : learning_tf/CMakeFiles/tf2_msgs_generate_messages_py.dir/depend
 

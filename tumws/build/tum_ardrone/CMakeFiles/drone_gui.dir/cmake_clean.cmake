@@ -10,8 +10,8 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/drone_gui.dir/src/UINode/moc_tum_ardrone_gui.cxx.o"
   "CMakeFiles/drone_gui.dir/src/UINode/moc_RosThread.cxx.o"
   "CMakeFiles/drone_gui.dir/src/UINode/moc_PingThread.cxx.o"
-  "/home/parallels/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui.pdb"
-  "/home/parallels/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui"
+  "/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui.pdb"
+  "/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,8 +1,8 @@
-prefix=/home/akila/ROSWS/tutws/install
+prefix=/home/dualboot/AKILAWS/ROSWS/tutws/install
 
 Name: learning_tf
 Description: Description of learning_tf
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/akila/ROSWS/tutws/install/lib 
+Libs: -L/home/dualboot/AKILAWS/ROSWS/tutws/install/lib 
 Requires: 

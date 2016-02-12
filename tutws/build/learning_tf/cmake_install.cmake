@@ -1,8 +1,8 @@
-# Install script for directory: /home/akila/ROSWS/tutws/src/learning_tf
+# Install script for directory: /home/dualboot/AKILAWS/ROSWS/tutws/src/learning_tf
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/akila/ROSWS/tutws/install")
+  SET(CMAKE_INSTALL_PREFIX "/home/dualboot/AKILAWS/ROSWS/tutws/install")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/akila/ROSWS/tutws/build/learning_tf/catkin_generated/installspace/learning_tf.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/dualboot/AKILAWS/ROSWS/tutws/build/learning_tf/catkin_generated/installspace/learning_tf.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/learning_tf/cmake" TYPE FILE FILES
-    "/home/akila/ROSWS/tutws/build/learning_tf/catkin_generated/installspace/learning_tfConfig.cmake"
-    "/home/akila/ROSWS/tutws/build/learning_tf/catkin_generated/installspace/learning_tfConfig-version.cmake"
+    "/home/dualboot/AKILAWS/ROSWS/tutws/build/learning_tf/catkin_generated/installspace/learning_tfConfig.cmake"
+    "/home/dualboot/AKILAWS/ROSWS/tutws/build/learning_tf/catkin_generated/installspace/learning_tfConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/learning_tf" TYPE FILE FILES "/home/akila/ROSWS/tutws/src/learning_tf/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/learning_tf" TYPE FILE FILES "/home/dualboot/AKILAWS/ROSWS/tutws/src/learning_tf/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

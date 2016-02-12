@@ -20,8 +20,8 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/drone_stateestimation.dir/src/stateestimation/PTAM/ShiTomasi.cc.o"
   "CMakeFiles/drone_stateestimation.dir/src/stateestimation/PTAM/SmallBlurryImage.cc.o"
   "CMakeFiles/drone_stateestimation.dir/src/stateestimation/PTAM/Tracker.cc.o"
-  "/home/parallels/ROSWS/tumws/devel/lib/tum_ardrone/drone_stateestimation.pdb"
-  "/home/parallels/ROSWS/tumws/devel/lib/tum_ardrone/drone_stateestimation"
+  "/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_stateestimation.pdb"
+  "/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_stateestimation"
 )
 
 # Per-language clean rules from dependency scanning.

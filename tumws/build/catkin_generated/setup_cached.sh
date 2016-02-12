@@ -7,12 +7,12 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/parallels/ROSWS/tumws/devel:$CMAKE_PREFIX_PATH"
-export CPATH="/home/parallels/ROSWS/tumws/devel/include:$CPATH"
-export LD_LIBRARY_PATH="/home/parallels/ROSWS/tumws/devel/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH"
-export PATH="/home/parallels/ROSWS/tumws/devel/bin:$PATH"
-export PKG_CONFIG_PATH="/home/parallels/ROSWS/tumws/devel/lib/x86_64-linux-gnu/pkgconfig:$PKG_CONFIG_PATH"
-export PWD="/home/parallels/ROSWS/tumws/build"
-export PYTHONPATH="/home/parallels/ROSWS/tumws/devel/lib/python2.7/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/parallels/ROSWS/tumws/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/parallels/ROSWS/tumws/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/dualboot/AKILAWS/ROSWS/tumws/devel:$CMAKE_PREFIX_PATH"
+export CPATH="/home/dualboot/AKILAWS/ROSWS/tumws/devel/include:$CPATH"
+export LD_LIBRARY_PATH="/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/x86_64-linux-gnu:/home/dualboot/AKILAWS/ROSWS/tutws/devel/lib/x86_64-linux-gnu:/opt/ros/indigo/lib/x86_64-linux-gnu:/home/dualboot/AKILAWS/ROSWS/tutws/devel/lib:/home/dualboot/AKILAWS/ROSWS/attackws/devel/lib:/home/akila/ROSWS/tumws/devel/lib:/home/akila/ROSWS/simws/devel/lib:/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib:/home/dualboot/AKILAWS/ROSWS/simws/devel/lib:/opt/ros/indigo/lib"
+export PATH="/home/dualboot/AKILAWS/ROSWS/tumws/devel/bin:$PATH"
+export PKG_CONFIG_PATH="/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/x86_64-linux-gnu/pkgconfig:/home/dualboot/AKILAWS/ROSWS/tutws/devel/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/indigo/lib/x86_64-linux-gnu/pkgconfig:/home/dualboot/AKILAWS/ROSWS/tutws/devel/lib/pkgconfig:/home/dualboot/AKILAWS/ROSWS/attackws/devel/lib/pkgconfig:/home/akila/ROSWS/tumws/devel/lib/pkgconfig:/home/akila/ROSWS/simws/devel/lib/pkgconfig:/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/pkgconfig:/home/dualboot/AKILAWS/ROSWS/simws/devel/lib/pkgconfig:/opt/ros/indigo/lib/pkgconfig"
+export PWD="/home/dualboot/AKILAWS/ROSWS/tumws/build"
+export PYTHONPATH="/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/python2.7/dist-packages:$PYTHONPATH"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/dualboot/AKILAWS/ROSWS/tumws/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/dualboot/AKILAWS/ROSWS/tumws/src:$ROS_PACKAGE_PATH"

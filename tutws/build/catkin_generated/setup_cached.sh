@@ -7,7 +7,12 @@
 # new environment variables
 
 # modified environment variables
-export LD_LIBRARY_PATH="/home/akila/ROSWS/tutws/devel/lib/x86_64-linux-gnu:/home/akila/ROSWS/argpsws/devel/lib/x86_64-linux-gnu:/home/akila/ROSWS/arws/devel/lib/x86_64-linux-gnu:/home/akila/ROSWS/attackws/devel/lib/x86_64-linux-gnu:/home/akila/ROSWS/tumws/devel/lib/x86_64-linux-gnu:/home/akila/ROSWS/simws/devel/lib/x86_64-linux-gnu:/opt/ros/indigo/lib/x86_64-linux-gnu:/home/akila/ROSWS/tutws/devel/lib:/home/akila/ROSWS/argpsws/devel/lib:/home/akila/ROSWS/arws/devel/lib:/home/akila/ROSWS/attackws/devel/lib:/home/akila/ROSWS/tumws/devel/lib:/home/akila/ROSWS/simws/devel/lib:/opt/ros/indigo/lib"
-export PKG_CONFIG_PATH="/home/akila/ROSWS/tutws/devel/lib/x86_64-linux-gnu/pkgconfig:/home/akila/ROSWS/argpsws/devel/lib/x86_64-linux-gnu/pkgconfig:/home/akila/ROSWS/arws/devel/lib/x86_64-linux-gnu/pkgconfig:/home/akila/ROSWS/attackws/devel/lib/x86_64-linux-gnu/pkgconfig:/home/akila/ROSWS/tumws/devel/lib/x86_64-linux-gnu/pkgconfig:/home/akila/ROSWS/simws/devel/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/indigo/lib/x86_64-linux-gnu/pkgconfig:/home/akila/ROSWS/tutws/devel/lib/pkgconfig:/home/akila/ROSWS/argpsws/devel/lib/pkgconfig:/home/akila/ROSWS/arws/devel/lib/pkgconfig:/home/akila/ROSWS/attackws/devel/lib/pkgconfig:/home/akila/ROSWS/tumws/devel/lib/pkgconfig:/home/akila/ROSWS/simws/devel/lib/pkgconfig:/opt/ros/indigo/lib/pkgconfig"
-export PWD="/home/akila/ROSWS/tutws/build"
-export ROS_PACKAGE_PATH="/home/akila/ROSWS/tutws/src:/home/akila/ROSWS/argpsws/src:/home/akila/ROSWS/arws/src:/home/akila/ROSWS/attackws/src:/home/akila/ROSWS/tumws/src:/home/akila/ROSWS/simws/src:/opt/ros/indigo/share:/opt/ros/indigo/stacks"
+export CMAKE_PREFIX_PATH="/home/dualboot/AKILAWS/ROSWS/tutws/devel:$CMAKE_PREFIX_PATH"
+export CPATH="/home/dualboot/AKILAWS/ROSWS/tutws/devel/include:$CPATH"
+export LD_LIBRARY_PATH="/home/dualboot/AKILAWS/ROSWS/tutws/devel/lib:/home/dualboot/AKILAWS/ROSWS/tutws/devel/lib/x86_64-linux-gnu:/opt/ros/indigo/lib/x86_64-linux-gnu:/opt/ros/indigo/lib"
+export PATH="/home/dualboot/AKILAWS/ROSWS/tutws/devel/bin:$PATH"
+export PKG_CONFIG_PATH="/home/dualboot/AKILAWS/ROSWS/tutws/devel/lib/pkgconfig:/home/dualboot/AKILAWS/ROSWS/tutws/devel/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/indigo/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/indigo/lib/pkgconfig"
+export PWD="/home/dualboot/AKILAWS/ROSWS/tutws/build"
+export PYTHONPATH="/home/dualboot/AKILAWS/ROSWS/tutws/devel/lib/python2.7/dist-packages:$PYTHONPATH"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/dualboot/AKILAWS/ROSWS/tutws/devel/share/common-lisp"
+export ROS_PACKAGE_PATH="/home/dualboot/AKILAWS/ROSWS/tutws/src:$ROS_PACKAGE_PATH"

@@ -1,7 +1,7 @@
 # Make file names absolute:
 #
-get_filename_component(filename "/home/parallels/ROSWS/tumws/src/tum_ardrone/thirdparty/thirdparty.tar.gz" ABSOLUTE)
-get_filename_component(directory "/home/parallels/ROSWS/tumws/build/thirdparty/src/thirdparty" ABSOLUTE)
+get_filename_component(filename "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/thirdparty/thirdparty.tar.gz" ABSOLUTE)
+get_filename_component(directory "/home/dualboot/AKILAWS/ROSWS/tumws/build/thirdparty/src/thirdparty" ABSOLUTE)
 
 message(STATUS "extracting...
      src='${filename}'
