@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dualboot/AKILAWS/ROSWS/tumws/src
+CMAKE_SOURCE_DIR = /home/viki/ROSWS/tumws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dualboot/AKILAWS/ROSWS/tumws/build
+CMAKE_BINARY_DIR = /home/viki/ROSWS/tumws/build
 
 # Utility rule file for run_tests.
 
@@ -60,6 +60,6 @@ CMakeFiles/run_tests.dir/clean:
 .PHONY : CMakeFiles/run_tests.dir/clean
 
 CMakeFiles/run_tests.dir/depend:
-	cd /home/dualboot/AKILAWS/ROSWS/tumws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dualboot/AKILAWS/ROSWS/tumws/src /home/dualboot/AKILAWS/ROSWS/tumws/src /home/dualboot/AKILAWS/ROSWS/tumws/build /home/dualboot/AKILAWS/ROSWS/tumws/build /home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/viki/ROSWS/tumws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viki/ROSWS/tumws/src /home/viki/ROSWS/tumws/src /home/viki/ROSWS/tumws/build /home/viki/ROSWS/tumws/build /home/viki/ROSWS/tumws/build/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests.dir/depend
 

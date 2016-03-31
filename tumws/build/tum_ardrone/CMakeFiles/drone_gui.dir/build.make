@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dualboot/AKILAWS/ROSWS/tumws/src
+CMAKE_SOURCE_DIR = /home/viki/ROSWS/tumws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dualboot/AKILAWS/ROSWS/tumws/build
+CMAKE_BINARY_DIR = /home/viki/ROSWS/tumws/build
 
 # Include any dependencies generated for this target.
 include tum_ardrone/CMakeFiles/drone_gui.dir/depend.make
@@ -49,39 +49,39 @@ include tum_ardrone/CMakeFiles/drone_gui.dir/progress.make
 # Include the compile flags for this target's objects.
 include tum_ardrone/CMakeFiles/drone_gui.dir/flags.make
 
-tum_ardrone/ui_tum_ardrone_gui.h: /home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/UINode/tum_ardrone_gui.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles $(CMAKE_PROGRESS_1)
+tum_ardrone/ui_tum_ardrone_gui.h: /home/viki/ROSWS/tumws/src/tum_ardrone/src/UINode/tum_ardrone_gui.ui
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viki/ROSWS/tumws/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ui_tum_ardrone_gui.h"
-	cd /home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone/ui_tum_ardrone_gui.h /home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/UINode/tum_ardrone_gui.ui
+	cd /home/viki/ROSWS/tumws/build/tum_ardrone && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/viki/ROSWS/tumws/build/tum_ardrone/ui_tum_ardrone_gui.h /home/viki/ROSWS/tumws/src/tum_ardrone/src/UINode/tum_ardrone_gui.ui
 
-tum_ardrone/src/UINode/moc_tum_ardrone_gui.cxx: /home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/UINode/tum_ardrone_gui.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles $(CMAKE_PROGRESS_2)
+tum_ardrone/src/UINode/moc_tum_ardrone_gui.cxx: /home/viki/ROSWS/tumws/src/tum_ardrone/src/UINode/tum_ardrone_gui.h
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viki/ROSWS/tumws/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating src/UINode/moc_tum_ardrone_gui.cxx"
-	cd /home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone/src/UINode && /usr/lib/x86_64-linux-gnu/qt4/bin/moc @/home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone/src/UINode/moc_tum_ardrone_gui.cxx_parameters
+	cd /home/viki/ROSWS/tumws/build/tum_ardrone/src/UINode && /usr/lib/x86_64-linux-gnu/qt4/bin/moc @/home/viki/ROSWS/tumws/build/tum_ardrone/src/UINode/moc_tum_ardrone_gui.cxx_parameters
 
-tum_ardrone/src/UINode/moc_RosThread.cxx: /home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/UINode/RosThread.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles $(CMAKE_PROGRESS_3)
+tum_ardrone/src/UINode/moc_RosThread.cxx: /home/viki/ROSWS/tumws/src/tum_ardrone/src/UINode/RosThread.h
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viki/ROSWS/tumws/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating src/UINode/moc_RosThread.cxx"
-	cd /home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone/src/UINode && /usr/lib/x86_64-linux-gnu/qt4/bin/moc @/home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone/src/UINode/moc_RosThread.cxx_parameters
+	cd /home/viki/ROSWS/tumws/build/tum_ardrone/src/UINode && /usr/lib/x86_64-linux-gnu/qt4/bin/moc @/home/viki/ROSWS/tumws/build/tum_ardrone/src/UINode/moc_RosThread.cxx_parameters
 
-tum_ardrone/src/UINode/moc_PingThread.cxx: /home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/UINode/PingThread.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles $(CMAKE_PROGRESS_4)
+tum_ardrone/src/UINode/moc_PingThread.cxx: /home/viki/ROSWS/tumws/src/tum_ardrone/src/UINode/PingThread.h
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viki/ROSWS/tumws/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating src/UINode/moc_PingThread.cxx"
-	cd /home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone/src/UINode && /usr/lib/x86_64-linux-gnu/qt4/bin/moc @/home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone/src/UINode/moc_PingThread.cxx_parameters
+	cd /home/viki/ROSWS/tumws/build/tum_ardrone/src/UINode && /usr/lib/x86_64-linux-gnu/qt4/bin/moc @/home/viki/ROSWS/tumws/build/tum_ardrone/src/UINode/moc_PingThread.cxx_parameters
 
 tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/main_GUI.cpp.o: tum_ardrone/CMakeFiles/drone_gui.dir/flags.make
-tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/main_GUI.cpp.o: /home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/UINode/main_GUI.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles $(CMAKE_PROGRESS_5)
+tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/main_GUI.cpp.o: /home/viki/ROSWS/tumws/src/tum_ardrone/src/UINode/main_GUI.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viki/ROSWS/tumws/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/main_GUI.cpp.o"
-	cd /home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/drone_gui.dir/src/UINode/main_GUI.cpp.o -c /home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/UINode/main_GUI.cpp
+	cd /home/viki/ROSWS/tumws/build/tum_ardrone && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/drone_gui.dir/src/UINode/main_GUI.cpp.o -c /home/viki/ROSWS/tumws/src/tum_ardrone/src/UINode/main_GUI.cpp
 
 tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/main_GUI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/drone_gui.dir/src/UINode/main_GUI.cpp.i"
-	cd /home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/UINode/main_GUI.cpp > CMakeFiles/drone_gui.dir/src/UINode/main_GUI.cpp.i
+	cd /home/viki/ROSWS/tumws/build/tum_ardrone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/viki/ROSWS/tumws/src/tum_ardrone/src/UINode/main_GUI.cpp > CMakeFiles/drone_gui.dir/src/UINode/main_GUI.cpp.i
 
 tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/main_GUI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/drone_gui.dir/src/UINode/main_GUI.cpp.s"
-	cd /home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/UINode/main_GUI.cpp -o CMakeFiles/drone_gui.dir/src/UINode/main_GUI.cpp.s
+	cd /home/viki/ROSWS/tumws/build/tum_ardrone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/viki/ROSWS/tumws/src/tum_ardrone/src/UINode/main_GUI.cpp -o CMakeFiles/drone_gui.dir/src/UINode/main_GUI.cpp.s
 
 tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/main_GUI.cpp.o.requires:
 .PHONY : tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/main_GUI.cpp.o.requires
@@ -93,18 +93,18 @@ tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/main_GUI.cpp.o.provides: tum_ard
 tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/main_GUI.cpp.o.provides.build: tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/main_GUI.cpp.o
 
 tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/tum_ardrone_gui.cpp.o: tum_ardrone/CMakeFiles/drone_gui.dir/flags.make
-tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/tum_ardrone_gui.cpp.o: /home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/UINode/tum_ardrone_gui.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles $(CMAKE_PROGRESS_6)
+tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/tum_ardrone_gui.cpp.o: /home/viki/ROSWS/tumws/src/tum_ardrone/src/UINode/tum_ardrone_gui.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viki/ROSWS/tumws/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/tum_ardrone_gui.cpp.o"
-	cd /home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/drone_gui.dir/src/UINode/tum_ardrone_gui.cpp.o -c /home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/UINode/tum_ardrone_gui.cpp
+	cd /home/viki/ROSWS/tumws/build/tum_ardrone && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/drone_gui.dir/src/UINode/tum_ardrone_gui.cpp.o -c /home/viki/ROSWS/tumws/src/tum_ardrone/src/UINode/tum_ardrone_gui.cpp
 
 tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/tum_ardrone_gui.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/drone_gui.dir/src/UINode/tum_ardrone_gui.cpp.i"
-	cd /home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/UINode/tum_ardrone_gui.cpp > CMakeFiles/drone_gui.dir/src/UINode/tum_ardrone_gui.cpp.i
+	cd /home/viki/ROSWS/tumws/build/tum_ardrone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/viki/ROSWS/tumws/src/tum_ardrone/src/UINode/tum_ardrone_gui.cpp > CMakeFiles/drone_gui.dir/src/UINode/tum_ardrone_gui.cpp.i
 
 tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/tum_ardrone_gui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/drone_gui.dir/src/UINode/tum_ardrone_gui.cpp.s"
-	cd /home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/UINode/tum_ardrone_gui.cpp -o CMakeFiles/drone_gui.dir/src/UINode/tum_ardrone_gui.cpp.s
+	cd /home/viki/ROSWS/tumws/build/tum_ardrone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/viki/ROSWS/tumws/src/tum_ardrone/src/UINode/tum_ardrone_gui.cpp -o CMakeFiles/drone_gui.dir/src/UINode/tum_ardrone_gui.cpp.s
 
 tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/tum_ardrone_gui.cpp.o.requires:
 .PHONY : tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/tum_ardrone_gui.cpp.o.requires
@@ -116,18 +116,18 @@ tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/tum_ardrone_gui.cpp.o.provides: 
 tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/tum_ardrone_gui.cpp.o.provides.build: tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/tum_ardrone_gui.cpp.o
 
 tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/RosThread.cpp.o: tum_ardrone/CMakeFiles/drone_gui.dir/flags.make
-tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/RosThread.cpp.o: /home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/UINode/RosThread.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles $(CMAKE_PROGRESS_7)
+tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/RosThread.cpp.o: /home/viki/ROSWS/tumws/src/tum_ardrone/src/UINode/RosThread.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viki/ROSWS/tumws/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/RosThread.cpp.o"
-	cd /home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/drone_gui.dir/src/UINode/RosThread.cpp.o -c /home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/UINode/RosThread.cpp
+	cd /home/viki/ROSWS/tumws/build/tum_ardrone && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/drone_gui.dir/src/UINode/RosThread.cpp.o -c /home/viki/ROSWS/tumws/src/tum_ardrone/src/UINode/RosThread.cpp
 
 tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/RosThread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/drone_gui.dir/src/UINode/RosThread.cpp.i"
-	cd /home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/UINode/RosThread.cpp > CMakeFiles/drone_gui.dir/src/UINode/RosThread.cpp.i
+	cd /home/viki/ROSWS/tumws/build/tum_ardrone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/viki/ROSWS/tumws/src/tum_ardrone/src/UINode/RosThread.cpp > CMakeFiles/drone_gui.dir/src/UINode/RosThread.cpp.i
 
 tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/RosThread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/drone_gui.dir/src/UINode/RosThread.cpp.s"
-	cd /home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/UINode/RosThread.cpp -o CMakeFiles/drone_gui.dir/src/UINode/RosThread.cpp.s
+	cd /home/viki/ROSWS/tumws/build/tum_ardrone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/viki/ROSWS/tumws/src/tum_ardrone/src/UINode/RosThread.cpp -o CMakeFiles/drone_gui.dir/src/UINode/RosThread.cpp.s
 
 tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/RosThread.cpp.o.requires:
 .PHONY : tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/RosThread.cpp.o.requires
@@ -139,18 +139,18 @@ tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/RosThread.cpp.o.provides: tum_ar
 tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/RosThread.cpp.o.provides.build: tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/RosThread.cpp.o
 
 tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/PingThread.cpp.o: tum_ardrone/CMakeFiles/drone_gui.dir/flags.make
-tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/PingThread.cpp.o: /home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/UINode/PingThread.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles $(CMAKE_PROGRESS_8)
+tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/PingThread.cpp.o: /home/viki/ROSWS/tumws/src/tum_ardrone/src/UINode/PingThread.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viki/ROSWS/tumws/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/PingThread.cpp.o"
-	cd /home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/drone_gui.dir/src/UINode/PingThread.cpp.o -c /home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/UINode/PingThread.cpp
+	cd /home/viki/ROSWS/tumws/build/tum_ardrone && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/drone_gui.dir/src/UINode/PingThread.cpp.o -c /home/viki/ROSWS/tumws/src/tum_ardrone/src/UINode/PingThread.cpp
 
 tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/PingThread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/drone_gui.dir/src/UINode/PingThread.cpp.i"
-	cd /home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/UINode/PingThread.cpp > CMakeFiles/drone_gui.dir/src/UINode/PingThread.cpp.i
+	cd /home/viki/ROSWS/tumws/build/tum_ardrone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/viki/ROSWS/tumws/src/tum_ardrone/src/UINode/PingThread.cpp > CMakeFiles/drone_gui.dir/src/UINode/PingThread.cpp.i
 
 tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/PingThread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/drone_gui.dir/src/UINode/PingThread.cpp.s"
-	cd /home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/UINode/PingThread.cpp -o CMakeFiles/drone_gui.dir/src/UINode/PingThread.cpp.s
+	cd /home/viki/ROSWS/tumws/build/tum_ardrone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/viki/ROSWS/tumws/src/tum_ardrone/src/UINode/PingThread.cpp -o CMakeFiles/drone_gui.dir/src/UINode/PingThread.cpp.s
 
 tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/PingThread.cpp.o.requires:
 .PHONY : tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/PingThread.cpp.o.requires
@@ -163,17 +163,17 @@ tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/PingThread.cpp.o.provides.build:
 
 tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/moc_tum_ardrone_gui.cxx.o: tum_ardrone/CMakeFiles/drone_gui.dir/flags.make
 tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/moc_tum_ardrone_gui.cxx.o: tum_ardrone/src/UINode/moc_tum_ardrone_gui.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viki/ROSWS/tumws/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/moc_tum_ardrone_gui.cxx.o"
-	cd /home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/drone_gui.dir/src/UINode/moc_tum_ardrone_gui.cxx.o -c /home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone/src/UINode/moc_tum_ardrone_gui.cxx
+	cd /home/viki/ROSWS/tumws/build/tum_ardrone && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/drone_gui.dir/src/UINode/moc_tum_ardrone_gui.cxx.o -c /home/viki/ROSWS/tumws/build/tum_ardrone/src/UINode/moc_tum_ardrone_gui.cxx
 
 tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/moc_tum_ardrone_gui.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/drone_gui.dir/src/UINode/moc_tum_ardrone_gui.cxx.i"
-	cd /home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone/src/UINode/moc_tum_ardrone_gui.cxx > CMakeFiles/drone_gui.dir/src/UINode/moc_tum_ardrone_gui.cxx.i
+	cd /home/viki/ROSWS/tumws/build/tum_ardrone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/viki/ROSWS/tumws/build/tum_ardrone/src/UINode/moc_tum_ardrone_gui.cxx > CMakeFiles/drone_gui.dir/src/UINode/moc_tum_ardrone_gui.cxx.i
 
 tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/moc_tum_ardrone_gui.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/drone_gui.dir/src/UINode/moc_tum_ardrone_gui.cxx.s"
-	cd /home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone/src/UINode/moc_tum_ardrone_gui.cxx -o CMakeFiles/drone_gui.dir/src/UINode/moc_tum_ardrone_gui.cxx.s
+	cd /home/viki/ROSWS/tumws/build/tum_ardrone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/viki/ROSWS/tumws/build/tum_ardrone/src/UINode/moc_tum_ardrone_gui.cxx -o CMakeFiles/drone_gui.dir/src/UINode/moc_tum_ardrone_gui.cxx.s
 
 tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/moc_tum_ardrone_gui.cxx.o.requires:
 .PHONY : tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/moc_tum_ardrone_gui.cxx.o.requires
@@ -186,17 +186,17 @@ tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/moc_tum_ardrone_gui.cxx.o.provid
 
 tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/moc_RosThread.cxx.o: tum_ardrone/CMakeFiles/drone_gui.dir/flags.make
 tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/moc_RosThread.cxx.o: tum_ardrone/src/UINode/moc_RosThread.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viki/ROSWS/tumws/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/moc_RosThread.cxx.o"
-	cd /home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/drone_gui.dir/src/UINode/moc_RosThread.cxx.o -c /home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone/src/UINode/moc_RosThread.cxx
+	cd /home/viki/ROSWS/tumws/build/tum_ardrone && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/drone_gui.dir/src/UINode/moc_RosThread.cxx.o -c /home/viki/ROSWS/tumws/build/tum_ardrone/src/UINode/moc_RosThread.cxx
 
 tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/moc_RosThread.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/drone_gui.dir/src/UINode/moc_RosThread.cxx.i"
-	cd /home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone/src/UINode/moc_RosThread.cxx > CMakeFiles/drone_gui.dir/src/UINode/moc_RosThread.cxx.i
+	cd /home/viki/ROSWS/tumws/build/tum_ardrone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/viki/ROSWS/tumws/build/tum_ardrone/src/UINode/moc_RosThread.cxx > CMakeFiles/drone_gui.dir/src/UINode/moc_RosThread.cxx.i
 
 tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/moc_RosThread.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/drone_gui.dir/src/UINode/moc_RosThread.cxx.s"
-	cd /home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone/src/UINode/moc_RosThread.cxx -o CMakeFiles/drone_gui.dir/src/UINode/moc_RosThread.cxx.s
+	cd /home/viki/ROSWS/tumws/build/tum_ardrone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/viki/ROSWS/tumws/build/tum_ardrone/src/UINode/moc_RosThread.cxx -o CMakeFiles/drone_gui.dir/src/UINode/moc_RosThread.cxx.s
 
 tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/moc_RosThread.cxx.o.requires:
 .PHONY : tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/moc_RosThread.cxx.o.requires
@@ -209,17 +209,17 @@ tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/moc_RosThread.cxx.o.provides.bui
 
 tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/moc_PingThread.cxx.o: tum_ardrone/CMakeFiles/drone_gui.dir/flags.make
 tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/moc_PingThread.cxx.o: tum_ardrone/src/UINode/moc_PingThread.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/dualboot/AKILAWS/ROSWS/tumws/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viki/ROSWS/tumws/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/moc_PingThread.cxx.o"
-	cd /home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/drone_gui.dir/src/UINode/moc_PingThread.cxx.o -c /home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone/src/UINode/moc_PingThread.cxx
+	cd /home/viki/ROSWS/tumws/build/tum_ardrone && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/drone_gui.dir/src/UINode/moc_PingThread.cxx.o -c /home/viki/ROSWS/tumws/build/tum_ardrone/src/UINode/moc_PingThread.cxx
 
 tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/moc_PingThread.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/drone_gui.dir/src/UINode/moc_PingThread.cxx.i"
-	cd /home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone/src/UINode/moc_PingThread.cxx > CMakeFiles/drone_gui.dir/src/UINode/moc_PingThread.cxx.i
+	cd /home/viki/ROSWS/tumws/build/tum_ardrone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/viki/ROSWS/tumws/build/tum_ardrone/src/UINode/moc_PingThread.cxx > CMakeFiles/drone_gui.dir/src/UINode/moc_PingThread.cxx.i
 
 tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/moc_PingThread.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/drone_gui.dir/src/UINode/moc_PingThread.cxx.s"
-	cd /home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone/src/UINode/moc_PingThread.cxx -o CMakeFiles/drone_gui.dir/src/UINode/moc_PingThread.cxx.s
+	cd /home/viki/ROSWS/tumws/build/tum_ardrone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/viki/ROSWS/tumws/build/tum_ardrone/src/UINode/moc_PingThread.cxx -o CMakeFiles/drone_gui.dir/src/UINode/moc_PingThread.cxx.s
 
 tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/moc_PingThread.cxx.o.requires:
 .PHONY : tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/moc_PingThread.cxx.o.requires
@@ -243,70 +243,70 @@ drone_gui_OBJECTS = \
 # External object files for target drone_gui
 drone_gui_EXTERNAL_OBJECTS =
 
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/main_GUI.cpp.o
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/tum_ardrone_gui.cpp.o
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/RosThread.cpp.o
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/PingThread.cpp.o
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/moc_tum_ardrone_gui.cxx.o
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/moc_RosThread.cxx.o
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/moc_PingThread.cxx.o
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: tum_ardrone/CMakeFiles/drone_gui.dir/build.make
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libQtGui.so
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libQtCore.so
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /opt/ros/indigo/lib/libimage_transport.so
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /opt/ros/indigo/lib/libclass_loader.so
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/libPocoFoundation.so
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /opt/ros/indigo/lib/libroslib.so
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /opt/ros/indigo/lib/libtf.so
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /opt/ros/indigo/lib/libtf2_ros.so
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /opt/ros/indigo/lib/libactionlib.so
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /opt/ros/indigo/lib/libmessage_filters.so
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /opt/ros/indigo/lib/libtf2.so
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /opt/ros/indigo/lib/libcamera_info_manager.so
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /opt/ros/indigo/lib/libcv_bridge.so
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.2.4.8
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.2.4.8
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.2.4.8
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.8
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libopencv_ocl.so.2.4.8
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.8
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.8
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.8
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.8
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libopencv_gpu.so.2.4.8
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.8
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.8
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libopencv_contrib.so.2.4.8
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /opt/ros/indigo/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /opt/ros/indigo/lib/libroscpp.so
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /opt/ros/indigo/lib/librosconsole.so
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /opt/ros/indigo/lib/librosconsole_log4cxx.so
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /opt/ros/indigo/lib/librosconsole_backend_interface.so
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/liblog4cxx.so
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /opt/ros/indigo/lib/libroscpp_serialization.so
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /opt/ros/indigo/lib/librostime.so
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /opt/ros/indigo/lib/libxmlrpcpp.so
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /opt/ros/indigo/lib/libcpp_common.so
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: tum_ardrone/CMakeFiles/drone_gui.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable /home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui"
-	cd /home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/drone_gui.dir/link.txt --verbose=$(VERBOSE)
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/main_GUI.cpp.o
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/tum_ardrone_gui.cpp.o
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/RosThread.cpp.o
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/PingThread.cpp.o
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/moc_tum_ardrone_gui.cxx.o
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/moc_RosThread.cxx.o
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/moc_PingThread.cxx.o
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: tum_ardrone/CMakeFiles/drone_gui.dir/build.make
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libQtGui.so
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libQtCore.so
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /opt/ros/indigo/lib/libimage_transport.so
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /opt/ros/indigo/lib/libclass_loader.so
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/libPocoFoundation.so
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /opt/ros/indigo/lib/libroslib.so
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /opt/ros/indigo/lib/libtf.so
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /opt/ros/indigo/lib/libtf2_ros.so
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /opt/ros/indigo/lib/libactionlib.so
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /opt/ros/indigo/lib/libmessage_filters.so
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /opt/ros/indigo/lib/libtf2.so
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /opt/ros/indigo/lib/libcamera_info_manager.so
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /opt/ros/indigo/lib/libcv_bridge.so
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.2.4.8
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.2.4.8
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.2.4.8
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.8
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libopencv_ocl.so.2.4.8
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.8
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.8
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.8
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.8
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libopencv_gpu.so.2.4.8
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.8
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.8
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libopencv_contrib.so.2.4.8
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /opt/ros/indigo/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /opt/ros/indigo/lib/libroscpp.so
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /opt/ros/indigo/lib/librosconsole.so
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /opt/ros/indigo/lib/librosconsole_log4cxx.so
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /opt/ros/indigo/lib/librosconsole_backend_interface.so
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/liblog4cxx.so
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /opt/ros/indigo/lib/libroscpp_serialization.so
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /opt/ros/indigo/lib/librostime.so
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /opt/ros/indigo/lib/libxmlrpcpp.so
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /opt/ros/indigo/lib/libcpp_common.so
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui: tum_ardrone/CMakeFiles/drone_gui.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable /home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui"
+	cd /home/viki/ROSWS/tumws/build/tum_ardrone && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/drone_gui.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-tum_ardrone/CMakeFiles/drone_gui.dir/build: /home/dualboot/AKILAWS/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui
+tum_ardrone/CMakeFiles/drone_gui.dir/build: /home/viki/ROSWS/tumws/devel/lib/tum_ardrone/drone_gui
 .PHONY : tum_ardrone/CMakeFiles/drone_gui.dir/build
 
 tum_ardrone/CMakeFiles/drone_gui.dir/requires: tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/main_GUI.cpp.o.requires
@@ -319,13 +319,13 @@ tum_ardrone/CMakeFiles/drone_gui.dir/requires: tum_ardrone/CMakeFiles/drone_gui.
 .PHONY : tum_ardrone/CMakeFiles/drone_gui.dir/requires
 
 tum_ardrone/CMakeFiles/drone_gui.dir/clean:
-	cd /home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone && $(CMAKE_COMMAND) -P CMakeFiles/drone_gui.dir/cmake_clean.cmake
+	cd /home/viki/ROSWS/tumws/build/tum_ardrone && $(CMAKE_COMMAND) -P CMakeFiles/drone_gui.dir/cmake_clean.cmake
 .PHONY : tum_ardrone/CMakeFiles/drone_gui.dir/clean
 
 tum_ardrone/CMakeFiles/drone_gui.dir/depend: tum_ardrone/ui_tum_ardrone_gui.h
 tum_ardrone/CMakeFiles/drone_gui.dir/depend: tum_ardrone/src/UINode/moc_tum_ardrone_gui.cxx
 tum_ardrone/CMakeFiles/drone_gui.dir/depend: tum_ardrone/src/UINode/moc_RosThread.cxx
 tum_ardrone/CMakeFiles/drone_gui.dir/depend: tum_ardrone/src/UINode/moc_PingThread.cxx
-	cd /home/dualboot/AKILAWS/ROSWS/tumws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dualboot/AKILAWS/ROSWS/tumws/src /home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone /home/dualboot/AKILAWS/ROSWS/tumws/build /home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone /home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone/CMakeFiles/drone_gui.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/viki/ROSWS/tumws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viki/ROSWS/tumws/src /home/viki/ROSWS/tumws/src/tum_ardrone /home/viki/ROSWS/tumws/build /home/viki/ROSWS/tumws/build/tum_ardrone /home/viki/ROSWS/tumws/build/tum_ardrone/CMakeFiles/drone_gui.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tum_ardrone/CMakeFiles/drone_gui.dir/depend
 

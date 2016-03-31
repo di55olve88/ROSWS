@@ -4,13 +4,13 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/UINode/PingThread.cpp" "/home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/PingThread.cpp.o"
-  "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/UINode/RosThread.cpp" "/home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/RosThread.cpp.o"
-  "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/UINode/main_GUI.cpp" "/home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/main_GUI.cpp.o"
-  "/home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone/src/UINode/moc_PingThread.cxx" "/home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/moc_PingThread.cxx.o"
-  "/home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone/src/UINode/moc_RosThread.cxx" "/home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/moc_RosThread.cxx.o"
-  "/home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone/src/UINode/moc_tum_ardrone_gui.cxx" "/home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/moc_tum_ardrone_gui.cxx.o"
-  "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/UINode/tum_ardrone_gui.cpp" "/home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/tum_ardrone_gui.cpp.o"
+  "/home/viki/ROSWS/tumws/src/tum_ardrone/src/UINode/PingThread.cpp" "/home/viki/ROSWS/tumws/build/tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/PingThread.cpp.o"
+  "/home/viki/ROSWS/tumws/src/tum_ardrone/src/UINode/RosThread.cpp" "/home/viki/ROSWS/tumws/build/tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/RosThread.cpp.o"
+  "/home/viki/ROSWS/tumws/src/tum_ardrone/src/UINode/main_GUI.cpp" "/home/viki/ROSWS/tumws/build/tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/main_GUI.cpp.o"
+  "/home/viki/ROSWS/tumws/build/tum_ardrone/src/UINode/moc_PingThread.cxx" "/home/viki/ROSWS/tumws/build/tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/moc_PingThread.cxx.o"
+  "/home/viki/ROSWS/tumws/build/tum_ardrone/src/UINode/moc_RosThread.cxx" "/home/viki/ROSWS/tumws/build/tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/moc_RosThread.cxx.o"
+  "/home/viki/ROSWS/tumws/build/tum_ardrone/src/UINode/moc_tum_ardrone_gui.cxx" "/home/viki/ROSWS/tumws/build/tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/moc_tum_ardrone_gui.cxx.o"
+  "/home/viki/ROSWS/tumws/src/tum_ardrone/src/UINode/tum_ardrone_gui.cpp" "/home/viki/ROSWS/tumws/build/tum_ardrone/CMakeFiles/drone_gui.dir/src/UINode/tum_ardrone_gui.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -31,7 +31,8 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/dualboot/AKILAWS/ROSWS/tumws/devel/include"
+  "/home/viki/ROSWS/tumws/devel/include"
+  "/home/viki/ROSWS/arws/devel/include"
   "/opt/ros/indigo/include"
   "/usr/include/opencv"
   "thirdparty/src/thirdparty/TooN/include"

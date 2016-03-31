@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dualboot/AKILAWS/ROSWS/tumws/src
+CMAKE_SOURCE_DIR = /home/viki/ROSWS/tumws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dualboot/AKILAWS/ROSWS/tumws/build
+CMAKE_BINARY_DIR = /home/viki/ROSWS/tumws/build
 
 # Utility rule file for dynamic_reconfigure_generate_messages_py.
 
@@ -56,10 +56,10 @@ tum_ardrone/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build: dynam
 .PHONY : tum_ardrone/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
 
 tum_ardrone/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/clean:
-	cd /home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone && $(CMAKE_COMMAND) -P CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/viki/ROSWS/tumws/build/tum_ardrone && $(CMAKE_COMMAND) -P CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : tum_ardrone/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/clean
 
 tum_ardrone/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/depend:
-	cd /home/dualboot/AKILAWS/ROSWS/tumws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dualboot/AKILAWS/ROSWS/tumws/src /home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone /home/dualboot/AKILAWS/ROSWS/tumws/build /home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone /home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/viki/ROSWS/tumws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viki/ROSWS/tumws/src /home/viki/ROSWS/tumws/src/tum_ardrone /home/viki/ROSWS/tumws/build /home/viki/ROSWS/tumws/build/tum_ardrone /home/viki/ROSWS/tumws/build/tum_ardrone/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tum_ardrone/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/depend
 

@@ -1,2 +1,2 @@
-set(tum_ardrone_MESSAGE_FILES "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/msg/filter_state.msg")
-set(tum_ardrone_SERVICE_FILES "/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetReference.srv;/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetMaxControl.srv;/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetInitialReachDistance.srv;/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetStayWithinDistance.srv;/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/srv/SetStayTime.srv")
+set(tum_ardrone_MESSAGE_FILES "/home/viki/ROSWS/tumws/src/tum_ardrone/msg/filter_state.msg")
+set(tum_ardrone_SERVICE_FILES "/home/viki/ROSWS/tumws/src/tum_ardrone/srv/SetReference.srv;/home/viki/ROSWS/tumws/src/tum_ardrone/srv/SetMaxControl.srv;/home/viki/ROSWS/tumws/src/tum_ardrone/srv/SetInitialReachDistance.srv;/home/viki/ROSWS/tumws/src/tum_ardrone/srv/SetStayWithinDistance.srv;/home/viki/ROSWS/tumws/src/tum_ardrone/srv/SetStayTime.srv")

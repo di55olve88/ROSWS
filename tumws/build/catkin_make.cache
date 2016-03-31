@@ -1,2 +1,2 @@
 tum_ardrone
--DCATKIN_DEVEL_PREFIX=/home/dualboot/AKILAWS/ROSWS/tumws/devel -DCMAKE_INSTALL_PREFIX=/home/dualboot/AKILAWS/ROSWS/tumws/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/viki/ROSWS/tumws/devel -DCMAKE_INSTALL_PREFIX=/home/viki/ROSWS/tumws/install -G Unix Makefiles

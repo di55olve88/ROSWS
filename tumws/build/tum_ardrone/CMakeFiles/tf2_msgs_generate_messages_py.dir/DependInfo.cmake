@@ -20,7 +20,8 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/dualboot/AKILAWS/ROSWS/tumws/devel/include"
+  "/home/viki/ROSWS/tumws/devel/include"
+  "/home/viki/ROSWS/arws/devel/include"
   "/opt/ros/indigo/include"
   "/usr/include/opencv"
   "thirdparty/src/thirdparty/TooN/include"

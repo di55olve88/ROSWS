@@ -1,11 +1,12 @@
--I/home/dualboot/AKILAWS/ROSWS/tumws/devel/include
--I/home/dualboot/AKILAWS/ROSWS/tumws/devel/include
+-I/home/viki/ROSWS/tumws/devel/include
+-I/home/viki/ROSWS/tumws/devel/include
+-I/home/viki/ROSWS/arws/devel/include
 -I/opt/ros/indigo/include
 -I/usr/include
 -I/usr/include/opencv
--I/home/dualboot/AKILAWS/ROSWS/tumws/build/thirdparty/src/thirdparty/TooN/include
--I/home/dualboot/AKILAWS/ROSWS/tumws/build/thirdparty/src/thirdparty/libcvd/include
--I/home/dualboot/AKILAWS/ROSWS/tumws/build/thirdparty/src/thirdparty/gvars3/include
+-I/home/viki/ROSWS/tumws/build/thirdparty/src/thirdparty/TooN/include
+-I/home/viki/ROSWS/tumws/build/thirdparty/src/thirdparty/libcvd/include
+-I/home/viki/ROSWS/tumws/build/thirdparty/src/thirdparty/gvars3/include
 -I/usr/include/qt4
 -I/usr/include/qt4/QtGui
 -I/usr/include/qt4/QtCore
@@ -17,5 +18,5 @@
 -DQT_GUI_LIB
 -DQT_CORE_LIB
 -o
-/home/dualboot/AKILAWS/ROSWS/tumws/build/tum_ardrone/src/UINode/moc_tum_ardrone_gui.cxx
-/home/dualboot/AKILAWS/ROSWS/tumws/src/tum_ardrone/src/UINode/tum_ardrone_gui.h
+/home/viki/ROSWS/tumws/build/tum_ardrone/src/UINode/moc_tum_ardrone_gui.cxx
+/home/viki/ROSWS/tumws/src/tum_ardrone/src/UINode/tum_ardrone_gui.h
