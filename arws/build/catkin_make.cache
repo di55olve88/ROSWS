@@ -1,0 +1,2 @@
+ardrone_autonomy
+-DCATKIN_DEVEL_PREFIX=/home/viki/ROSWS/arws/devel -DCMAKE_INSTALL_PREFIX=/home/viki/ROSWS/arws/install -G Unix Makefiles
